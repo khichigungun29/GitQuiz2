@@ -12,6 +12,16 @@ package gitquiz2;
 public class GitQuiz2 {
 
     public static void Cottrell(){
+        
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
+int num = Integer.parseInt(br.readLine()); //Length of Array
+String s= br.readLine(); //Input the number seperated by space
+int[] arr= new int[num];
+String[] s1 = s.split(" ");
+for(int i=0;i<num;i++)
+{
+    arr[i]=Integer.parseInt(s1[i]);
+}
         System.out.println("A DBA walks into a bar, approaches two tables and says ");
         System.out.println("'Hey, mind if I join you?'");
         System.out.println("\nThere are 10 types of people in the world: those who understand binary, and those who don't.");
