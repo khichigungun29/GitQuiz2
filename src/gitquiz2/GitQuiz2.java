@@ -20,6 +20,11 @@ public class GitQuiz2 {
         System.out.println("Id like to make the world a better place");       
         System.out.println("but they wont give me the source code");  
     }
+     public static void Maching()
+    {
+        System.out.println("Id like to make the world a better place");       
+        System.out.println("but they wont give me the source code");  
+    }
     public static void Cottrell(){
         System.out.println("A DBA walks into a bar, approaches two tables and says ");
         System.out.println("'Hey, mind if I join you?'");
