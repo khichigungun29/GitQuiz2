@@ -13,12 +13,9 @@ public class GitQuiz2 {
 
     public static void Cottrell(){
         System.out.println("\nThere are 10 types of people in the world: those who understand binary, and those who don't.");
-        int a=1;
     }
     public static void Negri(){
-        System.out.println("Why does Snoop Dogg always carry an umbrella?");
         System.out.println("FO DRIZZLE!");
-        System.out.println("\nThere are 10 types of people in the world: those who understand binary, and those who don't.");
     }
     public static void main(String[] args) {
         // TODO code application logic here
